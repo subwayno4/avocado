@@ -1,0 +1,17 @@
+@charset "utf-8" ;
+
+/* 실습용 레이아웃*/
+.straw_berry {color: #fff ;
+    font-size: 40px;
+    text-align: center;}
+
+#a {height: 100px; background: #ff0000b4;
+ line-height: 100px;}
+#b{height: 200px; background: #fd933cb4;
+ line-height: 200px;}
+#c {height: 300px; background: #02ff39b4;
+ line-height: 300px;}
+#d {height: 500px; background: #3411ffb4;
+ line-height: 500px;}
+#e {height: 600px; background: #ff6f9bb4;
+ line-height: 600px;}
