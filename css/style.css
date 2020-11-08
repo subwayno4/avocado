@@ -8,7 +8,7 @@
 #a {height: 100px; background: #ff0000b4;
  line-height: 100px;}
 /* #a .container는 a만 적용 width는 가로 
- margin 0 auto는 박스 가운데 정렬시킴  */
+ margin 0 auto는 박스 가운데 정렬시킴  text align center 글씨 가운데 정렬*/
 .container {height: inherit; background: rgba(255,255,255,0.3);
             width: 1000px;
             margin: 0 auto;}
