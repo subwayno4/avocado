@@ -3,3 +3,6 @@
 .alcohol {color: rgb(0, 0, 0);
           font-size: 50px; 
           text-align: center ; }
+
+.container_one {height: 300px; width: 200px;line-height: 300; background-color: lightcoral;}
+.container_two {height: 700px; width: 800px;line-height: 300; background-color: rgb(255, 0, 0);}
