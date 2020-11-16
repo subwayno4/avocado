@@ -39,3 +39,4 @@
 [1110/135449.571:WARNING:process_reader_win.cc(156)] Thread 7040 should be suspended, but previous_suspend_count is 0
 [1110/135449.571:WARNING:process_reader_win.cc(156)] Thread 10120 should be suspended, but previous_suspend_count is 0
 [1110/135449.572:WARNING:process_reader_win.cc(156)] Thread 19180 should be suspended, but previous_suspend_count is 0
+[1115/234114.833:ERROR:directory_reader_win.cc(43)] FindFirstFile: 지정된 경로를 찾을 수 없습니다. (0x3)
