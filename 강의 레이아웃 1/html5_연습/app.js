@@ -1,0 +1,26 @@
+import {Text} from './text';
+
+class app{
+    constructor() {
+    
+    WebFont.load({
+        google: {
+          families: ['Hind:700']
+        },
+        fontactive: () => {
+            this.text = new Text();
+            this.text.setText(
+                `A`,
+                2,
+                document.body.clientwidth,
+                document.body.clientHeight,
+            );
+        }
+      }); 
+    
+    }
+}
+
+window.onload = () => {
+    new app();
+}
