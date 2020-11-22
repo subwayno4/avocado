@@ -12,7 +12,7 @@ class app{
             this.text.setText(
                 `A`,
                 2,
-                document.body.clientwidth,
+                document.body.clientWidth,
                 document.body.clientHeight,
             );
         }
