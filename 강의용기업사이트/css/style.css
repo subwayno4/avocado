@@ -1,33 +1,51 @@
 @charset "utf-8";
+@font-face{
+ src: url(../fonts/CuteFont-Regular.ttf);
+ font-family: "CuteFont";
+}
+*{font-family: "CuteFont";}
 
-#wrap{}
-#header{height: 150px;}
+#wrap{background-color: rgba(255, 255, 255, 0.87);}
+#header{height: 130px;}
 #content{height: 1000px; background-color: rgb(38, 73, 3);}
 #footer{height: 300px; background-color: rgb(255, 60, 0);}
 .container{
-   height: 100%; width: 1200px; margin: 0 auto; background: rgba(0,0, 0, 0.3);
+   height: 100%; width: 1200px; margin: 0 auto; background-color: rgba(255, 255, 255, 0.3);
 }
 
 /*헤더의 탑 제작부분*/
-#top{height: 50px; background-color: royalblue;}
-#top .left{float: left; width: 50%; height: 100%; background-color: sandybrown;}
-#top .left a {
+#top{height: 50px;}
+#top .left{float: left; width: 50%; height: 100%;}
+#top a {
    float: left; font-size: 15px; padding: 2px 10px;
     display: block; margin-top: 18px; border-right: 1px solid #000000;
 }
-#top a:last(2){border-right: 0;}
+#top a.last{border-right: 0;}
 #top .left form{margin-top: 20px; margin-left: 10px;}
 
 #top .left .insert{float: left;}
-#top .left .button {float: left;}
+#top .left .button {float: left; position: relative;}
+#top .left .button input {width: 25px; height: 23.5px;}
+#top .left .button i{
+   position: absolute; top: 50%; left: 50%;
+   transform: translate(-50%, -70%);
+   pointer-events: none;
+}
 
-#top .right{float: left; width: 50%; height: 100%;background-color: seagreen;}
-#top .right .rbox {float: left;}
-#top .right a {
-    float: left; font-size: 15px; font-weight: bold; padding: 2px 10px;
-     display: block; margin-top: 18px; border-right: 1px solid #000000;
- }
- 
-
+#top .right{float: left; width: 50%; height: 100%;}
+#top .right .rbox {float: right; margin-right: 40px;}
+#top .right .rbox a.active{color: rgb(255, 0, 0); font-weight: bold;}
 /*헤더의 탑 제작부분*/
-#bottom{height: 100px;background-color: salmon;}
+
+/*헤더 바텀의 제작부분*/
+#bottom{height: 80px;background-color: salmon;
+position: relative;}
+#bottom ul{}
+#bottom ul li{}
+#bottom ul li a{}
+#bottom h3{
+   position: absolute; top: 0;right: 30px;
+   font-size: 40px;font-weight: bold; padding: 5px 10px;
+}
+
+/*헤더 바텀의 제작부분*/

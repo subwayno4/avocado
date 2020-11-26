@@ -6,6 +6,7 @@
     <title>강의용기업사이트</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
 </head>
 <body>
     <div id="wrap">
@@ -19,14 +20,15 @@
                     <form action="" method="POST">
                       <input class="insert" name="aaa" value="입력창">  
                         <div class="button">
-                            <input type="submit" name="bbb" value="버튼"> 
+                            <input type="submit" name="bbb" value=""> 
+                            <i class="fa fa-search" aria-hidden="true"></i> 
                         </div>
                     </form>
                 </div>
                 <!--헤더의 탑의 왼쪽-->
                 <div class="right">
                     <div class="rbox">
-                        <a href="#">KOR</a> 
+                        <a class="active" href="active">KOR</a> 
                         <a href="#">ENG</a>
                         <a class="last">JPN</a>
                     </div>  
@@ -34,7 +36,17 @@
                  <!--헤더의 탑의 오른쪽-->
             </div>
              <!--헤더의 탑-->
-            <div id="bottom"></div> 
+            <div id="bottom">
+                <ul>
+                    <li><a href="#">모기</a></li>
+                    <li><a href="#">파리</a></li>
+                    <li><a href="#">벼룩</a></li>
+                    <li><a href="#">진드기</a></li>
+                    <li><a href="#">빈대</a></li>
+                    <li><a href="#">뉴슨스</a></li>
+                </ul>
+                <h3>그들은 당신주변에 있다</h3>
+            </div> 
              <!--헤더의 바텀-->  
          </div>
         </div>
@@ -45,9 +57,17 @@
             <div class="container"></div>
         </div>
     </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js%22%3E</script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js%22%3E</script>
-        <script type="text/javascript">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+        <script>
+          var TopMenuLanguageButton = $("#top .right .rbox a");
+          TopMenuLanguageButton.click(function(e){ 
+            e.preventDefault();
+            var CurrButton = $(this);
+            $("#top .right .rbox a").removeClass("active");
+            CurrButton.addClass("active");
+          });
         </script>
 </body>
 </html>
