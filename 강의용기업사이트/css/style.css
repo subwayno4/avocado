@@ -60,7 +60,7 @@ position: relative;}
 
 #main h3{font-size: 30px; margin-top: 30px; font-weight: bold;}
 /*컨텐츠 메인 노티스1 게시판 제작*/
-#main .notice1 {height: 200px;}
+#main .notice1 {height: 200px; border-bottom: 3px dotted #000;}
 #main .notice1 .left{width: 500px;height: 100%; float: left; }
 /*컨텐츠 메인 노티스1 좌측 게시판 제작*/
 #main .notice1 .left ul{border-top: 1px solid #000  ; margin-right: 30px ;}
@@ -82,11 +82,15 @@ position: relative;}
 
 #main .notice1 .col{width: 350px; float: left;height: 100%;}
 #main .notice1 .col .top{height: 50%;}
-#main .notice1 .col .bottom{height: 50%; background-color: slateblue;}
+#main .notice1 .col .bottom{height: 50%;}
 #main .notice1 .center{}
-#main .notice1 .center .top{border-bottom: 1px solid #000000; margin-right: 30px;}
-#main .notice1 .center .top .update{font-size: 30px; font-weight: bold; margin-left: 20px;}
-#main .notice1 .center .top .date{font-size: 30px; margin-left: 120px;}
+#main .notice1 .center .top{border-bottom: 1px solid #000000; margin-right: 30px; position: relative;}
+#main .notice1 .center .top h4{font-size: 30px; }
+#main .notice1 .center .top span{font-size: 30px; margin-left: 110px;font-weight: bold;}
+#main .notice1 .center .bottom .malalia{height: 30px; font-size: 20px; font-weight: bold;}
+#main .notice1 .center .bottom .mosquito{float: left; height: 70px;}
+#main .notice1 .center .bottom .mosquito img{height: 70px; width: 65px;}
+#main .notice1 .center .bottom .link{float: left; height: 70px; width: 285px;}
 #main .notice1 .right{background-color: rgb(255, 119, 0);}
 /*컨텐츠 메인 노티스1 게시판 제작*/
 
