@@ -88,10 +88,23 @@ position: relative;}
 #main .notice1 .center .top h4{font-size: 30px; }
 #main .notice1 .center .top span{font-size: 30px; margin-left: 110px;font-weight: bold;}
 #main .notice1 .center .bottom .malalia{height: 30px; font-size: 20px; font-weight: bold;}
-#main .notice1 .center .bottom .mosquito{float: left; height: 70px;}
-#main .notice1 .center .bottom .mosquito img{height: 70px; width: 65px;}
-#main .notice1 .center .bottom .link{float: left; height: 70px; width: 285px;}
-#main .notice1 .right{background-color: rgb(255, 119, 0);}
+#main .notice1 .center .bottom .mosquito{float: left; height: 60px;}
+#main .notice1 .center .bottom .mosquito img{height: 70px; width: 60px;}
+#main .notice1 .center .bottom .link{line-height: 70px;color: rgba(0, 0, 0, 0.589); font-size: 20px
+   ;  float: left; height: 70px; width: 285px;}
+#main .notice1 .right{}
+#main .notice1 .right .top{padding-bottom: 1px; border-bottom: 1px solid #000000; margin-right: 30px; position: relative;}
+#main .notice1 .right .top h4{font-size: 30px; height: 20px;}
+
+
+
+
+
+#main .notice1 .right .top ul{margin-right: 30px ; display: block; float: left;}
+#main .notice1 .right .top ul li{padding-top: 5px; position: relative; font-size: 25px;}
+#main .notice1 .right .top ul li:first-child{padding-left: 0 ;}
+#main .notice1 .right .top ul li::after{font-weight: bold;}
+#main .notice1 .right .top ul li a{font-size: 20px; font-weight: bold;}
 /*컨텐츠 메인 노티스1 게시판 제작*/
 
 /*컨텐츠 메인 노티스2 게시판 제작*/
